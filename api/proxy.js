@@ -1,7 +1,8 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.chatgpt.com/";//your website url
+  // let target = "https://www.chatgpt.com/";//your website url
+  let target = "https://gemini.google.com/";
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
